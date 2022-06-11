@@ -1,0 +1,75 @@
+CL-USER> (load "assignment1.lisp")
+T
+CL-USER> (first2 '(1 2 3 4 5))
+(1 2)
+CL-USER> (add1 41)
+42
+CL-USER> (listadd1 '(1 2 3 4 5))
+(2 3 4 5 6)
+CL-USER> (listadd2 '(2 3 4 5 6))
+(3 4 5 6 7)
+CL-USER> (listadd3 '(3 4 5 6 7))
+(4 5 6 7 8)
+CL-USER> (flatten '(A (B C (D (E) F) G) H))
+(A B C D E F G H)
+CL-USER> (last2 '(1 2 3 4 5))
+(4 5)
+CL-USER> (my-reverse '(1 2 3 4 5))
+(5 4 3 2 1)
+CL-USER> (printlist '(1 2 3 4 5 6 7 8))
+First element: 1 
+Second element: 2 
+Third element: 3 
+Fourth element: 4 
+Fifth element: 5 
+Sixth element: 6 
+Seventh element: 7 
+Eighth element: 8 
+NIL
+CL-USER> (copyfile "foo.txt" "bar.txt")
+NIL
+CL-USER> (setq c (make-instance 'cat))
+#<CAT {1003074853}>
+CL-USER> (setq b (make-instance 'bird))
+#<BIRD {1003148B03}>
+CL-USER> (describe c)
+#<CAT {1003074853}>
+  [standard-object]
+
+Slots with :INSTANCE allocation:
+  NUM-LEGS                       = 4
+CL-USER> (describe b)
+#<BIRD {1003148B03}>
+  [standard-object]
+
+Slots with :INSTANCE allocation:
+  NUM-LEGS                       = 2
+CL-USER> (speak c)
+
+"meow" 
+"meow"
+CL-USER> (speak b)
+
+"tweet" 
+"tweet"
+CL-USER> (next '(2 4 6 8 10))
+NIL
+CL-USER> (next)
+2
+CL-USER> (next)
+4
+CL-USER> (next)
+6
+CL-USER> (next '(A B C))
+NIL
+CL-USER> (next)
+A
+CL-USER> (next)
+B
+CL-USER> (next)
+C
+CL-USER> (next)
+NIL
+CL-USER> (next)
+NIL
+CL-USER>

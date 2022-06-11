@@ -1,0 +1,64 @@
+Cost: 0 
+ A: (1 2 3 4) 
+ B: NIL 
+ C: NIL 
+Cost: 1 
+ A: (2 3 4) 
+ B: (1) 
+ C: NIL 
+Cost: 2 
+ A: (3 4) 
+ B: (1) 
+ C: (2) 
+Cost: 3 
+ A: (3 4) 
+ B: NIL 
+ C: (1 2) 
+Cost: 4 
+ A: (4) 
+ B: (3) 
+ C: (1 2) 
+Cost: 5 
+ A: (1 4) 
+ B: (3) 
+ C: (2) 
+Cost: 6 
+ A: (1 4) 
+ B: (2 3) 
+ C: NIL 
+Cost: 7 
+ A: (4) 
+ B: (1 2 3) 
+ C: NIL 
+Cost: 8 
+ A: NIL 
+ B: (1 2 3) 
+ C: (4) 
+Cost: 9 
+ A: NIL 
+ B: (2 3) 
+ C: (1 4) 
+Cost: 10 
+ A: (2) 
+ B: (3) 
+ C: (1 4) 
+Cost: 11 
+ A: (1 2) 
+ B: (3) 
+ C: (4) 
+Cost: 12 
+ A: (1 2) 
+ B: NIL 
+ C: (3 4) 
+Cost: 13 
+ A: (2) 
+ B: (1) 
+ C: (3 4) 
+Cost: 14 
+ A: NIL 
+ B: (1) 
+ C: (2 3 4) 
+Cost: 15 
+ A: NIL 
+ B: NIL 
+ C: (1 2 3 4) 
